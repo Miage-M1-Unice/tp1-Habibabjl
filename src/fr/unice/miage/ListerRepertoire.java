@@ -1,7 +1,7 @@
 package fr.unice.miage;
 
 import java.io.File;
-import java.io.IOException;
+import java.io.FilenameFilter;
 
 public class ListerRepertoire {
     public File reportoire;
@@ -14,6 +14,9 @@ public class ListerRepertoire {
         return reportoire;
     }
 
+    /**
+     *Affiche les répertoire
+     */
     public void listeRep(){
         String liste[] =  this.reportoire.list();
         if(liste !=null){
@@ -25,6 +28,10 @@ public class ListerRepertoire {
         }
     }
 
+    /**
+     * Affiche les répertoires et le contenu
+     * @param chemin
+     */
     public void listerFichier(File chemin){
             for(File fichier:chemin.listFiles()){
                 if(fichier.isDirectory()){
@@ -35,10 +42,32 @@ public class ListerRepertoire {
                 }
             }
     }
-    
+
+    /**
+     * Affiche les fichiers filtrés
+     * @param chemin
+     * @param filter
+     */
+    public void trouverFichier(File chemin, FilenameFilter filter){
+        for(File fichier:chemin.listFiles(filter)){
+            if(fichier.isDirectory()) {
+                trouverFichier(fichier, filter);
+            }else {
+                System.out.println(fichier);
+            }
+        }
+    }
+
     public static void main(String args[]) {
         ListerRepertoire liste = new ListerRepertoire();
-       // liste.listeRep();
+
+        liste.listeRep();
+        System.out.println("\n----------FIN QUESTION 1------------\n");
+
         liste.listerFichier(liste.getReportoire());
+        System.out.println("\n----------FIN QUESTION 2------------\n");
+
+        liste.trouverFichier(liste.getReportoire(),new MyFilenameFilter(".java"));
+        System.out.println("\n----------FIN QUESTION 3------------\n");
     }
 }

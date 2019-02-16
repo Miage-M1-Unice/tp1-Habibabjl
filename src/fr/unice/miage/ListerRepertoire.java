@@ -48,8 +48,9 @@ public class ListerRepertoire {
      * @param chemin
      * @param filter
      */
-    public void trouverFichier(File chemin, FilenameFilter filter){
-        for(File fichier:chemin.listFiles(filter)){
+    public void trouverFichier(File chemin, String filter){
+        MyFilenameFilterInternal f = new MyFilenameFilterInternal(filter);
+        for(File fichier:chemin.listFiles(f)){
             if(fichier.isDirectory()) {
                 trouverFichier(fichier, filter);
             }else {
@@ -58,6 +59,22 @@ public class ListerRepertoire {
         }
     }
 
+    /**
+     * Classe interne nommée
+     */
+    public class MyFilenameFilterInternal implements FilenameFilter {
+        public String filtre;
+
+        public MyFilenameFilterInternal(String filtre) {
+            this.filtre = filtre;
+        }
+
+        @Override
+        public boolean accept(File dir, String name) {
+            File file = new File(dir.getPath()+ "/" +name);
+            return name.toLowerCase().endsWith(filtre) || file.isDirectory();
+        }
+    }
     public static void main(String args[]) {
         ListerRepertoire liste = new ListerRepertoire();
 
@@ -67,7 +84,11 @@ public class ListerRepertoire {
         liste.listerFichier(liste.getReportoire());
         System.out.println("\n----------FIN QUESTION 2------------\n");
 
-        liste.trouverFichier(liste.getReportoire(),new MyFilenameFilter(".java"));
+        //Classe interne
+        liste.trouverFichier(liste.getReportoire(),".java");
+
+        //Classe externe
+        //liste.trouverFichier(liste.getReportoire(),new MyFilenameFilter(".java"));
         System.out.println("\n----------FIN QUESTION 3------------\n");
     }
 }

@@ -36,7 +36,6 @@ public class Main {
             }
         });
         System.out.println("\n----------FIN QUESTION 3------------\n");
-
         QuestionB b = new QuestionB();
         try{
             b.find();
@@ -46,5 +45,10 @@ public class Main {
         }
 
         System.out.println("\n----------FIN QUESTION 1.b)------------\n");
+
+        //Filter regex
+        FilterRegex filterRegex = new FilterRegex();
+        liste.trouverFichier(liste.getReportoire(), filterRegex);
+        System.out.println("\n----------FIN QUESTION 1.c)------------\n");
     }
 }

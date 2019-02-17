@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="176f34af-4f83-44f1-9784-8b064a01a190" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/unice/miage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/unice/miage/QuestionB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/miage/FilterRegex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/ListerRepertoire$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/ListerRepertoire.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/ListerRepertoire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/unice/miage/ListerRepertoire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/unice/miage/ListerRepertoire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/unice/miage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/unice/miage/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +18,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/ListerRepertoire.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="585">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/FilterRegex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/QuestionB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
+            <state relative-caret-position="276">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="382">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,14 +100,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/fr/unice/miage/MyFilenameFilter.java" />
         <option value="$PROJECT_DIR$/src/fr/unice/miage/ListerRepertoire.java" />
-        <option value="$PROJECT_DIR$/src/fr/unice/miage/Main.java" />
         <option value="$PROJECT_DIR$/src/fr/unice/miage/QuestionB.java" />
+        <option value="$PROJECT_DIR$/src/fr/unice/miage/FilterRegex.java" />
+        <option value="$PROJECT_DIR$/src/fr/unice/miage/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="680" />
-    <option name="width" value="1248" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="631" />
+    <option name="width" value="1298" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -138,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550431562701" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550434853288" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -221,18 +231,18 @@
       <option name="presentableId" value="Default" />
       <updated>1550325940402</updated>
       <workItem from="1550325946251" duration="14690000" />
-      <workItem from="1550426639513" duration="4917000" />
+      <workItem from="1550426639513" duration="7817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19607000" />
+    <option name="totallyTimeSpent" value="22507000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="505" y="0" width="1038" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.086577184" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13190185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,8 +250,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2592068" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295129" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26217765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/ListerRepertoire.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="585">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -338,7 +348,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/QuestionB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
+        <state relative-caret-position="276">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -350,8 +360,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="382">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/FilterRegex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

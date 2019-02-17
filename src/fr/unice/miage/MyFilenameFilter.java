@@ -3,6 +3,8 @@ package fr.unice.miage;
 import java.io.File;
 import java.io.FilenameFilter;
 
+//Classe externe indépendante
+
 public class MyFilenameFilter implements FilenameFilter {
 
     public String filtre;

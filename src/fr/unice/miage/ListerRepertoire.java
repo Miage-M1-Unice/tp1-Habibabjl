@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FilenameFilter;
 
 public class ListerRepertoire {
-    public File reportoire;
+    private File reportoire;
 
     public ListerRepertoire() {
         this.reportoire = new File(".");
@@ -46,13 +46,14 @@ public class ListerRepertoire {
     /**
      * Affiche les fichiers filtrés
      * @param chemin
-     * @param filter
+     * @param filtre
      */
-    public void trouverFichier(File chemin, String filter){
-        MyFilenameFilterInternal f = new MyFilenameFilterInternal(filter);
-        for(File fichier:chemin.listFiles(f)){
+    public void trouverFichier(File chemin, FilenameFilter filtre){
+      //  MyFilenameFilterInternal f = new MyFilenameFilterInternal(filtre);
+
+        for(File fichier:chemin.listFiles(filtre)){
             if(fichier.isDirectory()) {
-                trouverFichier(fichier, filter);
+                trouverFichier(fichier, filtre);
             }else {
                 System.out.println(fichier);
             }
@@ -75,6 +76,7 @@ public class ListerRepertoire {
             return name.toLowerCase().endsWith(filtre) || file.isDirectory();
         }
     }
+
     public static void main(String args[]) {
         ListerRepertoire liste = new ListerRepertoire();
 
@@ -84,11 +86,26 @@ public class ListerRepertoire {
         liste.listerFichier(liste.getReportoire());
         System.out.println("\n----------FIN QUESTION 2------------\n");
 
-        //Classe interne
-        liste.trouverFichier(liste.getReportoire(),".java");
-
         //Classe externe
-        //liste.trouverFichier(liste.getReportoire(),new MyFilenameFilter(".java"));
+        System.out.println("---Classe externe---");
+        liste.trouverFichier(liste.getReportoire(),new MyFilenameFilter(".java"));
+
+        //Classe interne nommée
+        System.out.println("---Classe interne nommée---");
+        liste.trouverFichier(liste.getReportoire(),new MyFilenameFilter(".java"));
+
+       //Classe interne anonyme
+        System.out.println("---Classe interne anonyme---");
+        liste.trouverFichier(new File("."),new FilenameFilter() {
+            @Override
+            public boolean accept(File dir, String name) {
+                File file = new File(dir.getAbsolutePath() + "/" + name);
+                if (file.isDirectory()) {
+                    return true;
+                }
+                return name.toLowerCase().endsWith(".java");
+            }
+        });
         System.out.println("\n----------FIN QUESTION 3------------\n");
     }
 }

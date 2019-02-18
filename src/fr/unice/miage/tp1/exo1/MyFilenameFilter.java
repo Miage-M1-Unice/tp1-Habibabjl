@@ -1,4 +1,4 @@
-package fr.unice.miage;
+package fr.unice.miage.tp1.exo1;
 
 import java.io.File;
 import java.io.FilenameFilter;

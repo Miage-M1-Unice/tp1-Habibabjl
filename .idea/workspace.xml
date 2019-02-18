@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="176f34af-4f83-44f1-9784-8b064a01a190" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/unice/miage/FilterRegex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/miage/tp2/AnalyseurDeClasse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/unice/miage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/unice/miage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/FilterRegex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/ListerRepertoire$MyFilenameFilterInternal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/ListerRepertoire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/MyFilenameFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/QuestionB$FilterFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/QuestionB$ListFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp1-Habibabjl/fr/unice/miage/QuestionB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/unice/miage/FilterRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/unice/miage/tp1/exo1/FilterRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/unice/miage/ListerRepertoire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/unice/miage/tp1/exo1/ListerRepertoire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/unice/miage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/unice/miage/tp1/exo1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/unice/miage/MyFilenameFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/unice/miage/tp1/exo1/MyFilenameFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/unice/miage/QuestionB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/unice/miage/tp1/exo1/QuestionB.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,63 +26,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tp1_Habibabjl$AnalyseurDeClasse.ic" NAME="AnalyseurDeClasse Coverage Results" MODIFIED="1550518692270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fr.unice.miage.tp2.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/ListerRepertoire.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/FilterRegex.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/tp2/AnalyseurDeClasse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/QuestionB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/MyFilenameFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="170">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +58,14 @@
     <findStrings>
       <find>reportoire</find>
       <find>MyFilenameFilterInternal</find>
+      <find>analyseClasse</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\I353574\OneDrive - SAP SE\habiba\MIAGE\M1 MIAGE\S2\Programmation objet\tp1-Habibabjl\src\fr\unice\miage</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,12 +78,13 @@
         <option value="$PROJECT_DIR$/src/fr/unice/miage/QuestionB.java" />
         <option value="$PROJECT_DIR$/src/fr/unice/miage/FilterRegex.java" />
         <option value="$PROJECT_DIR$/src/fr/unice/miage/Main.java" />
+        <option value="$PROJECT_DIR$/src/fr/unice/miage/tp2/AnalyseurDeClasse.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="width" value="1298" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="722" />
+    <option name="width" value="1205" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -119,7 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,17 +114,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="miage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tp1-Habibabjl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp1-Habibabjl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="miage" type="462c0819:PsiDirectoryNode" />
+              <item name="tp1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550434853288" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550519114500" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -172,7 +155,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.AnalyseurDeClasse">
+    <configuration name="AnalyseurDeClasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.unice.miage.tp2.AnalyseurDeClasse" />
+      <module name="tp1-Habibabjl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.unice.miage.tp2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListerRepertoire" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.unice.miage.ListerRepertoire" />
       <module name="tp1-Habibabjl" />
@@ -214,6 +210,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnalyseurDeClasse" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.QuestionB" />
         <item itemvalue="Application.ListerRepertoire" />
@@ -231,18 +228,21 @@
       <option name="presentableId" value="Default" />
       <updated>1550325940402</updated>
       <workItem from="1550325946251" duration="14690000" />
-      <workItem from="1550426639513" duration="7817000" />
+      <workItem from="1550426639513" duration="8420000" />
+      <workItem from="1550496007427" duration="54000" />
+      <workItem from="1550496247713" duration="7488000" />
+      <workItem from="1550516235731" duration="2867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22507000" />
+    <option name="totallyTimeSpent" value="33519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="505" y="0" width="1038" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13190185" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09261745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -251,7 +251,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295129" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26217765" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5141643" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,6 +262,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3295129" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -273,7 +274,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.061744966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34285715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -281,8 +282,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29745042" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295129" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26217765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,9 +327,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/MyFilenameFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/tp1/exo1/ListerRepertoire.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="618">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/tp1/exo1/QuestionB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/tp1/exo1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/tp1/exo1/MyFilenameFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -336,42 +367,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/ListerRepertoire.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/tp1/exo1/FilterRegex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/QuestionB.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/tp2/AnalyseurDeClasse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/unice/miage/FilterRegex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

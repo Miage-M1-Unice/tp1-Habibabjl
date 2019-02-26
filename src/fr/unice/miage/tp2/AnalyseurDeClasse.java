@@ -49,6 +49,7 @@ public class AnalyseurDeClasse{
             chaine += "extends "+supercl;
         }
 
+
         // Affichage des interfaces que la classe implemente
         if(cl.getInterfaces() != null){
             Object[] interfaces = cl.getInterfaces();
